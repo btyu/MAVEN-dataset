@@ -1,32 +1,13 @@
-# MAVEN-dataset
-Source code and dataset for EMNLP 2020 paper "MAVEN: A Massive General Domain Event Detection Dataset".
+# MAVEN-dataset-expansion
+This repo adds more information onto [the MAVEN dataset](https://github.com/THU-KEG/MAVEN-dataset), such as lemma, PoS, dependency parsing, etc.
 
 ## Data
 
-The dataset can be obtained from [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/d/874e0ad810f34272a03b/) or [Google Drive](https://drive.google.com/drive/folders/19Q0lqJE6A98OLnRqQVhbX3e6rG4BVGn8?usp=sharing). The data format is introduced in [this document](DataFormat.md).
+The expanded dataset is based on the MAVEN dataset published on Oct. 26, 2020, and  can be obtained from [release](https://github.com/btyu/MAVEN-dataset-expansion/releases). Those added tags are obtained via [Stanza](https://stanfordnlp.github.io/stanza). The data format is introduced in [this document](DataFormat.md), where we only add the "token_info" field in contrast to the original one. 
 
-## CodaLab
-
-To get the test results, you can submit your predictions to our permanent [competition](https://competitions.codalab.org/competitions/27320) running at CodaLab. For the evaluation method, please refer to the [evaluation script](evaluate.py).
+For the original MAVEN dataset, please refer to the original repo.
 
 ## Codes
 
-MOGANED codes are released now.
-
-Other codes are coming soon.
-
-## Cite
-
-If these data and codes help you, please cite this paper.
-
-```bib
-@inproceedings{wang2020MAVEN,
-  title={{MAVEN}: A Massive General Domain Event Detection Dataset},
-  author={Wang, Xiaozhi and Wang, Ziqi and Han, Xu and Jiang, Wangyi and Han, Rong and Liu, Zhiyuan and Li, Juanzi and Li, Peng and Lin, Yankai and Zhou, Jie},
-  booktitle={Proceedings of EMNLP 2020},
-  year={2020}
-}
-```
-
-
+[This file](maven_expansion.ipynb) is the script to do this expansion.
 
