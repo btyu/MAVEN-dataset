@@ -7,7 +7,7 @@ The expanded dataset is based on the MAVEN dataset published on Oct. 26, 2020, a
 
 For the descriptions of the added fields (upos, xpos, etc.), please refer to the Stanza doc. 
 
-The label types of upos, xpos and deprel are listed in [label_types](/label_types). Note that the types are based on the annotation results on MAVEN, so they may not be the universal sets.
+The label types of upos, xpos and deprel are listed in [label_types](/label_types). Note that the types are based on the annotation results on MAVEN ([Code](statistics.ipynb)), so they may not be the universal sets.
 
 For the original MAVEN dataset, please refer to the original repo.
 
