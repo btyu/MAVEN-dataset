@@ -9,8 +9,8 @@ Each `.jsonl` file is a subset of MAVEN and each line in the files is a json str
     "content": [ // the content of the document. A list, each item is a dict for a sentence
     		{
     			"sentence":"...", // a string, the plain text of the sentence
-    			"tokens": ["...", "..."] // a list, tokens of the sentence
-			    "token_info": [{...}, {...}]  // expanded info for each token
+    			"tokens": ["...", "..."], // a list, tokens of the sentence
+    			"token_info": [{...}, {...}]  // expanded info for each token
 		}
     ],
     "events":[ // a list for annotated events, each item is a dict for an event
@@ -48,8 +48,8 @@ For the `test.jsonl`, the format is almost the same but we hide the golden label
     "content": [ // the content of the document. A list, each item is a dict for a sentence
     		{
     		 	"sentence":"...", // a string, the plain text of the sentence
-    		 	"tokens": ["...", "..."] // a list, tokens of the sentence
-			    "token_info": [{...}, {...}]  // expanded info for each token
+    		 	"tokens": ["...", "..."], // a list, tokens of the sentence
+    		 	"token_info": [{...}, {...}]  // expanded info for each token
 		}
     ],
     "candidates":[ // a list for trigger candidiates, each item is a dict for a trigger or a negative instance, you need to classify the type for each candidate
